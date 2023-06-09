@@ -1,0 +1,84 @@
+/* ��ҳԪ�ر߾����� */
+body,header,nav,ul,li,main,footer{
+	margin: 0;
+	list-style-type: none;
+}
+/* headerͷ����960���أ���110���أ�����ͼƬImages/banner.jpg������ */
+header {
+	width:960px;
+	height:110px;
+	background-image: url('Images/banner.jpg');
+	margin: 0px auto;
+}
+/* nav��������960���أ���30���أ�������ɫΪ#D2E9FF������  */
+nav {
+	width: 960px;
+	height: 30px;
+	background-color:#D2E9FF;
+	margin: 0px auto;
+	text-align:right;
+}
+/* nav���������б�ȥ��Ĭ�ϵ�Բ���� */
+nav ul{
+	list-style-type:none;
+	margin-left: -40px;
+}
+/* nav�������ĸ��б���ˮƽ����  */
+nav ul li {
+    width: 100px;
+    height: 30px;
+	line-height: 30px;
+	text-align:center;
+	float: left;
+}
+/* nav�������ĸ�����ȥ��Ĭ�ϵ��»���  */
+nav a{
+	display:block;
+	width:100px;
+	text-decoration:none;	
+}
+/* main��������960���أ����У���ɫϸ�߱߿�  */
+main{
+	width: 960px;;
+	margin: 0px auto;
+	text-align:center;
+	border:1px solid silver;
+	padding-bottom:40px;
+}
+main ul.books{
+	list-style-type: none;
+	height: 100%;
+}
+main ul.books li{
+	list-style-type: none;
+	margin-top: 30px;
+	margin-right: 59px;
+	float: left;
+}
+main ul.books li span{
+	display: block;
+}
+main ul.books li img{
+	width: 170px;
+	height: 230px;
+}
+/* footerҳ�ſ�960���أ���60���أ�����ͼƬImages/footer.jpg������  */
+footer{
+    width:960px;
+    height:60px;
+    background-image: url('Images/footer.jpg');
+    margin: 0px auto;
+    line-height: 60px;
+    text-align: center;
+    color:white;
+}
+
+.error{
+    color:red;
+}
+#welcome{
+	
+	line-height: 30px;
+}
+
+
